@@ -11,7 +11,7 @@ system and stored in an sql database.
 ```
 a.Make sure you have a django environment setup along with sql
 
-b. Clone the file : 
+b. Clone the file : https://github.com/jared7129/tick_tack_toe_app.git
 
 c. cd django_app
 
