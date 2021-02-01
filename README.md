@@ -1,7 +1,7 @@
 # tick_tack_toe_app
 A tic tac toe game build using django and react
 
-This app has been built using the django framework for the management system, and react for the frontend of the tic tac toe game. Games history will be stored in the management
+This app has been built using the django framework for the management system, and react for the frontend of the tic tac toe game. Games history will be stored in the management.
 system and stored in an sql database.
 
 ### Django App
@@ -9,6 +9,7 @@ system and stored in an sql database.
 1. To use the django app and login to view the history of games, do the following
 
 ```
+( Make sure you have python 3 installed and pip)
 a.Make sure you have a django environment setup along with sql
 
 b. Clone the file : https://github.com/jared7129/tick_tack_toe_app.git
@@ -37,9 +38,9 @@ django-rest framework
 ```
 a. cd react app
 
-b. npm install
+b.Install relevant packages -  npm install
 
-c. yarn start
+c. Start the app - yarn start
 
 (Make sure you have npm and yarn installed)
 
