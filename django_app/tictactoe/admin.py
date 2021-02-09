@@ -1,9 +1,9 @@
 from django.contrib import admin
 
 # Register your models here.
-from .models import History
+from .models import Game
 
-class HistoryAdmin(admin.ModelAdmin):
-  list_display = ('title', 'text')
+class GameAdmin(admin.ModelAdmin):
+  list_display = ('player_x', 'player_o', 'state')
 
-admin.site.register(History, HistoryAdmin)
+admin.site.register(Game, GameAdmin)

@@ -17,10 +17,13 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
 from tictactoe import views
+from django.views.generic import RedirectView
 
-router = routers.DefaultRouter()
-router.register(r'historys', views.HistoryView, 'history')
+from django.contrib import admin
+
 
 urlpatterns = [
-  path('admin/', admin.site.urls), path('api/', include(router.urls))
+  path('', RedirectView.as_view(pattern_name='tictactoe:index', permanent=True), name='index'),
+  path('tictactoe/', include('tictactoe.urls', namespace='tictactoe')),
+  path('admin/', admin.site.urls),
 ]

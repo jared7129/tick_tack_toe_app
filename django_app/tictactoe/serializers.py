@@ -1,7 +1,7 @@
 from rest_framework import serializers
-from .models import History
+from .models import Game
 
-class HistorySerializer(serializers.ModelSerializer):
+class GameSerializer(serializers.ModelSerializer):
   class Meta:
-    model = History
-    fields = ('id' ,'title', 'text')
+    model = Game
+    fields = ('player_x' ,'player_o', 'state')
