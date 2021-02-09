@@ -14,6 +14,8 @@ system and stored in an sql database.
 
 #### c. Migrations will need to be re-run in order to create the new table
 
+#### d. cd into the tictactoe folder and run : python players.py
+
 
 1. To use the django app and login to view the history of games, do the following
 
