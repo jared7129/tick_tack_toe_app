@@ -6,13 +6,13 @@ system and stored in an sql database.
 
 ### Django App
 
-###N.B - Changes
+### N.B - Changes
 
-###a. The attributes and methods for calculations have been made in the models.py file and ajax requests in the views.py file
+#### a. The attributes and methods for calculations have been made in the models.py file and ajax requests in the views.py file
 
-###b. Html templates are in the templates folder, while css and js files are in the static folder
+#### b. Html templates are in the templates folder, while css and js files are in the static folder
 
-###c. Migrations will need to be re-run in order to create the new table
+#### c. Migrations will need to be re-run in order to create the new table
 
 
 1. To use the django app and login to view the history of games, do the following
